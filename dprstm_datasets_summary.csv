@@ -1,0 +1,9 @@
+Dataset,Countries,Observations,Years,Regions,Mean_GDP_Growth,Mean_Manufacturing,Mean_Services
+dprstm_main_analysis.csv,76,3116,1980-2020,6,4.1,22.72,51.91
+dprstm_resource_poor.csv,66,2706,1980-2020,6,4.3,23.21,52.06
+dprstm_resource_rich.csv,10,410,1980-2020,4,2.76,19.49,50.92
+dprstm_high_institution.csv,20,820,1980-2020,5,5.36,26.63,51.41
+dprstm_low_institution.csv,56,2296,1980-2020,6,3.65,21.33,52.08
+dprstm_thailand_peers.csv,6,246,1980-2020,3,4.97,25.18,51.92
+dprstm_post2000.csv,76,1596,2000-2020,6,4.2,22.85,51.74
+dprstm_iv_estimation.csv,76,3116,1980-2020,6,4.1,22.72,51.91

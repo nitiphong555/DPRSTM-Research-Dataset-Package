@@ -1,0 +1,25 @@
+Variable,Description,Unit,Source
+country,Country name,Text,Author classification
+year,Year (1980-2020),Year,Time series
+region,Geographic region,Text,Geographic classification
+is_resource_rich,"Resource-rich dummy (1=rich, 0=poor)",Binary,World Bank/IMF classification
+is_high_institution,"High institution quality dummy (1=high, 0=low)",Binary,World Governance Indicators classification
+is_thailand_peer,"Thailand peer group dummy (1=peer, 0=other)",Binary,Author classification
+gdp_growth,GDP per capita growth rate (%),Percent,Penn World Table 10.0
+manufacturing_share,Manufacturing value-added share of GDP (%),Percent,UNIDO Industrial Development Report
+services_share,Services value-added share of GDP (%),Percent,World Bank National Accounts
+agriculture_share,Agriculture value-added share of GDP (%),Percent,World Bank National Accounts
+structural_change_velocity,Structural change velocity index,Index (0-8),Calculated (McMillan & Rodrik 2011)
+human_capital_index,Human capital index (0-1),Index (0-1),UNDP Human Development Reports
+institutional_quality,Institutional quality index (-2.5 to 2.5),Index (-2.5 to 2.5),World Governance Indicators
+infrastructure_index,Infrastructure development index,Index (0-100),World Development Indicators (PCA)
+investment_rate,Investment rate (% of GDP),Percent,Penn World Table 10.0
+trade_openness,Trade openness (% of GDP),Percent,World Development Indicators
+government_expenditure,Government expenditure (% of GDP),Percent,World Development Indicators
+employment_manufacturing_share,Employment share in manufacturing (%),Percent,ILO Employment Statistics
+employment_services_share,Employment share in services (%),Percent,ILO Employment Statistics
+iv_trade_policy,Trade policy instrument variable,Standardized,Constructed
+iv_geography,Geographic instrument variable,Standardized,Constructed
+gdp_per_capita_lag,Lagged GDP per capita (for convergence),USD,Penn World Table 10.0
+regime,"Growth regime (1=high, 0=low)",Binary,Estimated (EM Algorithm)
+regime_label,Growth regime label (High-Growth/Low-Growth),Text,Estimated (EM Algorithm)
